@@ -17,3 +17,12 @@ print(age)
 print(type(greeting))               # The type() prints the datatype of the variable greeting   output : <class 'str'>
 print(type(age))                    # The type() prints the datatype of the variable age        output :  <class 'int'>
 
+
+#------------------------------------------------------------------------------------
+# u cant use a string and a integer at the same time 
+# age = 23
+# print("Hello my age is " + age)   # TypeError: can only concatenate str (not "int") to str
+
+#however if we redefine our prog as 
+age = 23 
+print("Hello my age is " + str(age))    # output : Hello my age is 23
