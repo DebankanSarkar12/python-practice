@@ -1,5 +1,4 @@
-# we win each in seperate line 
-py="We Win"
-for i in range(0,13):
-    print(py[i])
-    print('\n')
+letters="abcdefghijklmnopqrstuvwxyz"
+#back=letters[16:13:-1]
+back=letters[3::-1]
+print(back)
