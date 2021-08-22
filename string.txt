@@ -1,0 +1,19 @@
+parrot="Norweign BLue" 
+print(parrot)
+print(parrot[3])
+It will print 'w'
+
+0 1 2 3 4 5 6 7 8  9 10 11 12 
+N o r w e i g n '' B  l  u  e 
+
+if u say print(parrot[13]) >>> it will say index out of range 
+
+----------------------------------------------------------------------------------------
+Negative indexing 
+parrot="yes sir"
+now for negative indexing  if we write parrot[-1] it will print the char at the end of the string 
+parrot[-1] last char in the list 
+parrot[-2] second last char in the list 
+parrot[-3] third last char in the list 
+
+-----------------------------------------------------------------------------------------------------------
